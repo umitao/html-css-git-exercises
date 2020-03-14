@@ -4,3 +4,20 @@
   border-radius: 4px;
   background: #fff;
 }
+
+/* * {
+  border: 1px solid red;
+} */
+
+ul.countries {
+  list-style-type: none;
+  background: gray;
+  width: 20vw;
+  padding: 5px;
+}
+
+li.country {
+  padding: 5px;
+  background: whitesmoke;
+  margin: 3px;
+}
