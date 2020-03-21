@@ -16,18 +16,18 @@ ul.countries--second li.country--uganda {
   order: 2;
 }
 
-ul.countries--third li:nth-child(1) {
+ul.countries--third li.country--brazil {
   order: 5;
 }
-ul.countries--third li:nth-child(2) {
+ul.countries--third li.country--croatia {
   order: 4;
 }
-ul.countries--third li:nth-child(3) {
+ul.countries--third li.country--ethiopia {
   order: 3;
 }
-ul.countries--third li:nth-child(4) {
+ul.countries--third li.country--laos {
   order: 2;
 }
-ul.countries--third li:nth-child(5) {
+ul.countries--third li.country--uganda {
   order: 1;
 }
