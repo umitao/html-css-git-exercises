@@ -6,15 +6,54 @@
   }
 }
 
+/* convert navbar to flexbox */
 .main-nav ul {
   display: flex;
   justify-content: space-around;
 }
 
 @media screen and (min-width: 767px) {
+  /* convert header to flexbox above 767px wide*/
   header.site-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
+  .views {
+    display: flex;
+  }
+
+  /* link margins */
+  div.views > *:nth-child(-n + 3) {
+    margin-right: 10px;
+  }
+
+  .views a:last-child {
+    margin-left: auto;
+  }
+
+  /* alternative to above
+
+  .views a:nth-child(3) {
+    flex: 1;
+  }*/
+}
+
+fieldset label {
+  display: block;
+}
+
+article.main-article {
+  max-width: 50em;
+}
+
+main.site-content {
+  display: flex;
+  justify-content: center;
+}
+
+article.main-article p {
+  line-height: 1.7em;
+  text-align: justify;
 }
